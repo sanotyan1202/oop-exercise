@@ -97,12 +97,13 @@ class Main {
 		String articleBody = "World";  
 
 		// showメソッド呼び出し  
-		show(userFirstName, userLastName, colleagueUserFirstName, colleagueUserLastName, colleagueUserAge, articleTitle,  
-				articleBody);  
+		show(userFirstName, userLastName, colleagueUserFirstName,
+		     colleagueUserLastName, colleagueUserAge, articleTitle, articleBody);  
 	}  
 
-	private static void show(String userFirstName, String userLastName, String colleagueUserFirstName,  
-			String colleagueUserLastName, int colleagueUserAge, String articleTitle, String articleBody) {  
+	private static void show(String userFirstName, String userLastName,
+	                         String colleagueUserFirstName, String colleagueUserLastName,
+													 int colleagueUserAge, String articleTitle, String articleBody) {  
 		System.out.println("Hello, " + ???);  
 		System.out.println("Your colleague is " + ??? + " Age:" + colleagueUserAge);  
 		System.out.println();  
