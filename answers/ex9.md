@@ -1,3 +1,4 @@
+## 課題9 解答
 
 ```java
 public class PartTimer extends User {

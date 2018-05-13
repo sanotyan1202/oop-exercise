@@ -1,3 +1,4 @@
+## 課題5 解答
 ```java
 public class User {
 	String id;
@@ -47,6 +48,3 @@ class Main {
 	}
 }
 ```
-
-UserクラスにgetFullNameメソッドを定義したことで、「user.」まで打つとgetFullNameメソッドが候補に表示されるのがわかると思います。
-これによりUserクラスを知らない人でもユーザーに対して使用するメソッドがどれだけあるか知る事ができます。
