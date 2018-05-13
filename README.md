@@ -82,13 +82,13 @@ class Main {
 
 		// ログインユーザー情報  
 		String userId = "0001";  
-    String userFirstName = "Taro";  
+		String userFirstName = "Taro";  
 		String userLastName = "Hoge";  
 		int userAge = 20;  
 
 		// 同僚ユーザー情報  
 		String colleagueUserId = "0002";  
-    String colleagueUserFirstName = "Jiro";  
+		String colleagueUserFirstName = "Jiro";  
 		String colleagueUserLastName = "Fuga";  
 		int colleagueUserAge = 22;  
 
@@ -97,13 +97,10 @@ class Main {
 		String articleBody = "World";  
 
 		// showメソッド呼び出し  
-		show(userFirstName, userLastName, colleagueUserFirstName,
-		     colleagueUserLastName, colleagueUserAge, articleTitle, articleBody);  
+		show(userFirstName, userLastName, colleagueUserFirstName, colleagueUserLastName, colleagueUserAge, articleTitle, articleBody);  
 	}  
 
-	private static void show(String userFirstName, String userLastName,
-	                         String colleagueUserFirstName, String colleagueUserLastName,
-													 int colleagueUserAge, String articleTitle, String articleBody) {  
+	private static void show(String userFirstName, String userLastName,String colleagueUserFirstName, String colleagueUserLastName, int colleagueUserAge, String articleTitle, String articleBody) {  
 		System.out.println("Hello, " + ???);  
 		System.out.println("Your colleague is " + ??? + " Age:" + colleagueUserAge);  
 		System.out.println();  
@@ -131,16 +128,16 @@ showメソッドを呼び出した時、順番通り間違えずに値を渡す�
 
 ```java  
 class User {  
-  ???  
-  ???  
-  ???  
-  ???  
+	???  
+	???  
+	???  
+	???  
 }  
 ```  
 ```java  
 class Article {  
-  ???  
-  ???  
+	???  
+	???  
 }  
 ```  
 
@@ -209,9 +206,9 @@ public class User {
 	String lastName;  
 	int age;  
 
-  public String getFullName() {  
-    ???  
-  }  
+	public String getFullName() {  
+		???  
+	}  
 }  
 ```  
 #### [問] MainクラスからgetFullNameメソッドを削除してください  
@@ -292,7 +289,7 @@ public class Article {
 	String title;  
 	String body;  
 
-  ???  
+	???  
 }  
 ```  
 
@@ -321,8 +318,8 @@ public class Regular ??? {
 
 	String deptName;  
 
-  // コンストラクタ  
-  ???  
+	// コンストラクタ  
+	???  
 }  
 ```  
 
@@ -331,8 +328,8 @@ public class Contract  ??? {
 
 	int contractTerm;  
 
-  // コンストラクタ  
-  ???  
+	// コンストラクタ  
+	???  
 }  
 ```  
 

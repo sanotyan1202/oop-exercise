@@ -28,8 +28,7 @@ class Main {
 
 	private static void show(User user, User colleague, Article article) {
 		System.out.println("Hello, " + getFullName(user.lastName, user.firstName));
-		System.out.println("Your colleague is " + getFullName(colleague.lastName, colleague.firstName)
-		                    + "Age:" + colleague.age);
+		System.out.println("Your colleague is " + getFullName(colleague.lastName, colleague.firstName) + "Age:" + colleague.age);
 		System.out.println();
 		System.out.println("Title: " + article.title);
 		System.out.println("Body: " + article.body);
