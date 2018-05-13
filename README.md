@@ -407,6 +407,16 @@ Body: World
 ```  
 ノーヒント  
 ```  
+
+出力結果  
+```  
+Hello, Hoge Taro  
+Your colleague is Fuga Jiro(PartTime) Age:22  
+
+Title: Hello  
+Body: World  
+```  
+
 [解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex9.md)
 
 ## 課題10 抽象クラス  
