@@ -1,0 +1,50 @@
+## 解答と解説
+```java
+class Main {
+	public static void main(String[] args) {
+
+		// ログインユーザー情報
+		String userId = "0001";
+    String userFirstName = "Taro";
+		String userLastName = "Hoge";
+		int userAge = 20;
+
+		// 同僚ユーザー情報
+		String colleagueUserId = "0002";
+    String colleagueUserFirstName = "Jiro";
+		String colleagueUserLastName = "Fuga";
+		int colleagueUserAge = 22;
+
+		// 記事情報
+		String articleTitle = " Hello";
+		String articleBody = "World";
+
+		// showメソッド呼び出し
+		show(userFirstName, userLastName, colleagueUserFirstName, colleagueUserLastName, colleagueUserAge, articleTitle,
+				articleBody);
+	}
+
+	private static void show(String userFirstName, String userLastName, String colleagueUserFirstName,
+			String colleagueUserLastName, int colleagueUserAge, String articleTitle, String articleBody) {
+		System.out.println("Hello, " + userLastName + " " + userFirstName);
+		System.out.println("Your colleague is " + colleagueUserLastName + " " + colleagueUserFirstName + "Age:"
+				+ colleagueUserAge);
+		System.out.println();
+		System.out.println("Title: " + articleTitle);
+		System.out.println("Body: " + articleBody);
+	}
+}
+```
+showメソッドは画面に文字を出力するだけなので戻り値は不要です。voidを指定します。
+クラスを使わない場合、showメソッドには画面に表示する情報の数だけ、引数を指定する必要があります。
+showメソッドの引数の名前や順番はどのようでも動きます。
+しかしわかりやすいように、渡してほしい情報の名前を変数につけ種類ごとに並べましょう。
+
+### 出力結果
+```
+Hello, Hoge Taro
+Your colleague is Fuga JiroAge:22
+
+Title:  Hello
+Body: World
+```
