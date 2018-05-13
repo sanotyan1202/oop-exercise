@@ -1,4 +1,4 @@
-## 課題1 解答と解説  
+## 課題1 解答  
 ```java  
 class Main {  
 	public static void main(String[] args) {  
