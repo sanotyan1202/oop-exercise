@@ -24,7 +24,7 @@ class Main {
 			show(userFirstName, userLastName, colleagueUserFirstName, colleagueUserLastName, colleagueUserAge, articleTitle, articleBody);
 		}  
 
-			private static void show(String userFirstName, String userLastName, String colleagueUserFirstName, String colleagueUserLastName, int colleagueUserAge, String articleTitle, String articleBody) {  
+	private static void show(String userFirstName, String userLastName, String colleagueUserFirstName, String colleagueUserLastName, int colleagueUserAge, String articleTitle, String articleBody) {  
 		System.out.println("Hello, " + getFullName(userLastName, userFirstName));  
 		System.out.println("Your colleague is " + getFullName(colleagueUserLastName, colleagueUserFirstName) + "Age:" + colleagueUserAge);  
 		System.out.println();  

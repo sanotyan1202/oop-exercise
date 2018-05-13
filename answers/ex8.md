@@ -10,7 +10,7 @@ public class Contract extends User {
 		this.contractTerm = contractTerm;
 	}
 
-  public String getFullName() {
+	public String getFullName() {
 //		return this.lastName + " " + this.firstName + "(Contract)";
 		return super.getFullName() + "(Contract)";
 	}

@@ -1,6 +1,6 @@
 ## 課題7 解答
 ```java
-public class Regular extends User{
+public class Regular extends User {
 
 	String deptName;
 
