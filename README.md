@@ -33,7 +33,7 @@ Body: World
 ```  
 
 ```java  
-class Main {  
+public class Main {  
   public static void main(String[] args) {  
 
     // ログインユーザー情報  
@@ -78,7 +78,7 @@ userFirstName + " " + userLastName
 #### [問] getFullNameメソッドを定義してください。  
 
 ```java  
-class Main {  
+public class Main {  
   public static void main(String[] args) {  
 
     // ログインユーザー情報  
@@ -128,7 +128,7 @@ showメソッドを呼び出した時、順番通り間違えずに値を渡す�
 #### [問] 記事情報をまとめるArticleクラスを定義してください  
 
 ```java  
-class User {  
+public class User {  
   ???  
   ???  
   ???  
@@ -136,7 +136,7 @@ class User {
 }  
 ```  
 ```java  
-class Article {  
+public class Article {  
   ???  
   ???  
 }  
@@ -154,7 +154,7 @@ Javaでは、整数なら「1」と打てば、1という整数情報が作成�
 #### [問] showメソッドの引数を、Userクラス、Articleインスタンスを受け取るように変更してください  
 
 ```java  
-lass Main {  
+public class Main {  
   public static void main(String[] args) {  
 
     // ログインユーザー情報  
@@ -217,7 +217,7 @@ public class User {
 #### [問] MainクラスからgetFullNameメソッドを削除してください  
 #### [問] UserクラスのgetFullNameメソッドを呼び出してください  
 ```java  
-class Main {  
+public class Main {  
   public static void main(String[] args) {  
 
     // ログインユーザー情報  
@@ -341,7 +341,7 @@ public class Contract  ??? {
 #### [問] 同僚ユーザー情報を契約社員のインスタンスに変更してください（契約期間は2ヶ月とします）  
 
 ```java  
-class Main {  
+public class Main {  
   public static void main(String[] args) {  
 
     // ログインユーザー情報  
@@ -467,7 +467,7 @@ public class HomeViewer {
 #### [問] mainメソッドでHomeViewerインスタンスを生成し、showメソッドを呼び出してください
 
 ```java
-class Main {
+public class Main {
   public static void main(String[] args) {
 
     // ログインユーザー情報
@@ -532,7 +532,7 @@ public class LoginViewer  ??? {
 #### [問] ログインユーザーがnullだった場合、ログイン画面、そうでない場合、ホーム画面を出力するようにしてください
 
 ```java
-class Main {
+public class Main {
   public static void main(String[] args) {
 
     // ログインユーザー情報
@@ -588,7 +588,7 @@ public interface Viewer {
 #### [問] mainメソッドで、Viewer.getViewerメソッドを使って、Viewerインスタンスを生成してください
 
 ```java
-class Main {
+public class Main {
   public static void main(String[] args) {
 
     // ログインユーザー情報
