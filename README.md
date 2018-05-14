@@ -34,35 +34,35 @@ Body: World
 
 ```java  
 class Main {  
-	public static void main(String[] args) {  
+  public static void main(String[] args) {  
 
-		// ログインユーザー情報  
-		String userId = "0001";  
-		String userLastName = "Taro";  
-		String userFirstName = "Hoge";  
-		int userAge = 20;  
+    // ログインユーザー情報  
+    String userId = "0001";  
+    String userLastName = "Taro";  
+    String userFirstName = "Hoge";  
+    int userAge = 20;  
 
-		// 同僚ユーザー情報  
-		String colleagueUserId = "0002";  
-		String colleagueUserLastName = "Jiro";  
-		String colleagueUserFirstName = "Fuga";  
-		int colleagueUserAge = 22;  
+    // 同僚ユーザー情報  
+    String colleagueUserId = "0002";  
+    String colleagueUserLastName = "Jiro";  
+    String colleagueUserFirstName = "Fuga";  
+    int colleagueUserAge = 22;  
 
-		// 記事情報  
-		String articleTitle = " Hello";  
-		String articleBody = "World";  
+    // 記事情報  
+    String articleTitle = " Hello";  
+    String articleBody = "World";  
 
-		// showメソッド呼び出し  
-		show(???);
-	}  
+    // showメソッド呼び出し  
+    show(???);
+  }  
 
-	private static ??? show(???) {  
-		System.out.println("Hello, " ???);  
-		System.out.println("Your colleague is " ???);  
-		System.out.println();  
-		System.out.println("Title: " ???);  
-		System.out.println("Body: " ???);  
-	}  
+  private static ??? show(???) {  
+    System.out.println("Hello, " ???);  
+    System.out.println("Your colleague is " ???);  
+    System.out.println();  
+    System.out.println("Title: " ???);  
+    System.out.println("Body: " ???);  
+  }  
 }  
 ```  
 [解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex1.md)
@@ -79,39 +79,39 @@ userFirstName + " " + userLastName
 
 ```java  
 class Main {  
-	public static void main(String[] args) {  
+  public static void main(String[] args) {  
 
-		// ログインユーザー情報  
-		String userId = "0001";  
-		String userFirstName = "Taro";  
-		String userLastName = "Hoge";  
-		int userAge = 20;  
+    // ログインユーザー情報  
+    String userId = "0001";  
+    String userFirstName = "Taro";  
+    String userLastName = "Hoge";  
+    int userAge = 20;  
 
-		// 同僚ユーザー情報  
-		String colleagueUserId = "0002";  
-		String colleagueUserFirstName = "Jiro";  
-		String colleagueUserLastName = "Fuga";  
-		int colleagueUserAge = 22;  
+    // 同僚ユーザー情報  
+    String colleagueUserId = "0002";  
+    String colleagueUserFirstName = "Jiro";  
+    String colleagueUserLastName = "Fuga";  
+    int colleagueUserAge = 22;  
 
-		// 記事情報  
-		String articleTitle = " Hello";  
-		String articleBody = "World";  
+    // 記事情報  
+    String articleTitle = " Hello";  
+    String articleBody = "World";  
 
-		// showメソッド呼び出し  
-		show(userFirstName, userLastName, colleagueUserFirstName, colleagueUserLastName, colleagueUserAge, articleTitle, articleBody);  
-	}  
+    // showメソッド呼び出し  
+    show(userFirstName, userLastName, colleagueUserFirstName, colleagueUserLastName, colleagueUserAge, articleTitle, articleBody);  
+  }  
 
-	private static void show(String userFirstName, String userLastName,String colleagueUserFirstName, String colleagueUserLastName, int colleagueUserAge, String articleTitle, String articleBody) {  
-		System.out.println("Hello, " + ???);  
-		System.out.println("Your colleague is " + ??? + " Age:" + colleagueUserAge);  
-		System.out.println();  
-		System.out.println("Title: " + articleTitle);  
-		System.out.println("Body: " + articleBody);  
-	}  
+  private static void show(String userFirstName, String userLastName,String colleagueUserFirstName, String colleagueUserLastName, int colleagueUserAge, String articleTitle, String articleBody) {  
+    System.out.println("Hello, " + ???);  
+    System.out.println("Your colleague is " + ??? + " Age:" + colleagueUserAge);  
+    System.out.println();  
+    System.out.println("Title: " + articleTitle);  
+    System.out.println("Body: " + articleBody);  
+  }  
 
-	private static ??? getFullName(???) {  
-		???  
-	}  
+  private static ??? getFullName(???) {  
+    ???  
+  }  
 }  
  ```  
 [解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex2.md)
@@ -129,16 +129,16 @@ showメソッドを呼び出した時、順番通り間違えずに値を渡す�
 
 ```java  
 class User {  
-	???  
-	???  
-	???  
-	???  
+  ???  
+  ???  
+  ???  
+  ???  
 }  
 ```  
 ```java  
 class Article {  
-	???  
-	???  
+  ???  
+  ???  
 }  
 ```  
 [解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex3.md)
@@ -155,42 +155,42 @@ Javaでは、整数なら「1」と打てば、1という整数情報が作成�
 
 ```java  
 lass Main {  
-	public static void main(String[] args) {  
+  public static void main(String[] args) {  
 
-		// ログインユーザー情報  
-		??? user = ???  
-		user.id = "0001";  
-		user.firstName = "Taro";  
-		user.lastName = "Hoge";  
-		user.age = 20;  
+    // ログインユーザー情報  
+    ??? user = ???  
+    user.id = "0001";  
+    user.firstName = "Taro";  
+    user.lastName = "Hoge";  
+    user.age = 20;  
 
-		// 同僚ユーザー情報  
-		??? colleague = ???;  
-		colleague.id = "0002";  
-		colleague.firstName = "Jiro";  
-		colleague.lastName = "Fuga";  
-		colleague.age = 22;  
+    // 同僚ユーザー情報  
+    ??? colleague = ???;  
+    colleague.id = "0002";  
+    colleague.firstName = "Jiro";  
+    colleague.lastName = "Fuga";  
+    colleague.age = 22;  
 
-		// 記事情報  
-		??? article = ???  
-		article.title = " Hello";  
-		article.body = "World";  
+    // 記事情報  
+    ??? article = ???  
+    article.title = " Hello";  
+    article.body = "World";  
 
-		// showメソッド呼び出し  
-		show(???);  
-	}  
+    // showメソッド呼び出し  
+    show(???);  
+  }  
 
-	private static void show(???) {  
-		System.out.println("Hello, " + getFullName(???));  
-		System.out.println("Your colleague is " + getFullName(???) + " Age:" + ???);  
-		System.out.println();  
-		System.out.println("Title: " + ???);  
-		System.out.println("Body: " + ???);  
-	}  
+  private static void show(???) {  
+    System.out.println("Hello, " + getFullName(???));  
+    System.out.println("Your colleague is " + getFullName(???) + " Age:" + ???);  
+    System.out.println();  
+    System.out.println("Title: " + ???);  
+    System.out.println("Body: " + ???);  
+  }  
 
-	private static String getFullName(String lastName, String firstName) {  
-		return lastName + " " + firstName;  
-	}  
+  private static String getFullName(String lastName, String firstName) {  
+    return lastName + " " + firstName;  
+  }  
 }  
 ```  
 [解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex4.md)
@@ -204,52 +204,52 @@ getFullNameメソッドはユーザー情報に関するメソッドなので、
 
 ```java  
 public class User {  
-	String id;  
-	String firstName;  
-	String lastName;  
-	int age;  
+  String id;  
+  String firstName;  
+  String lastName;  
+  int age;  
 
-	public String getFullName() {  
-		???  
-	}  
+  public String getFullName() {  
+    ???  
+  }  
 }  
 ```  
 #### [問] MainクラスからgetFullNameメソッドを削除してください  
 #### [問] UserクラスのgetFullNameメソッドを呼び出してください  
 ```java  
 class Main {  
-	public static void main(String[] args) {  
+  public static void main(String[] args) {  
 
-		// ログインユーザー情報  
-		User user = new User();  
-		user.id = "0001";  
-		user.firstName = "Taro";  
-		user.lastName = "Hoge";  
-		user.age = 20;  
+    // ログインユーザー情報  
+    User user = new User();  
+    user.id = "0001";  
+    user.firstName = "Taro";  
+    user.lastName = "Hoge";  
+    user.age = 20;  
 
-		// 同僚ユーザー情報  
-		User colleague = new User();  
-		colleague.id = "0002";  
-		colleague.firstName = "Jiro";  
-		colleague.lastName = "Fuga";  
-		colleague.age = 22;  
+    // 同僚ユーザー情報  
+    User colleague = new User();  
+    colleague.id = "0002";  
+    colleague.firstName = "Jiro";  
+    colleague.lastName = "Fuga";  
+    colleague.age = 22;  
 
-		// 記事情報  
-		Article article = new Article();  
-		article.title = " Hello";  
-		article.body = "World";  
+    // 記事情報  
+    Article article = new Article();  
+    article.title = " Hello";  
+    article.body = "World";  
 
-		// showメソッド呼び出し  
-		show(user, colleague, article);  
-	}  
+    // showメソッド呼び出し  
+    show(user, colleague, article);  
+  }  
 
-	private static void show(User user, User colleague, Article article) {  
-		System.out.println("Hello, " + ???);  
-		System.out.println("Your colleague is " + ??? + " Age:" + colleague.age);  
-		System.out.println();  
-		System.out.println("Title: " + article.title);  
-		System.out.println("Body: " + article.body);  
-	}  
+  private static void show(User user, User colleague, Article article) {  
+    System.out.println("Hello, " + ???);  
+    System.out.println("Your colleague is " + ??? + " Age:" + colleague.age);  
+    System.out.println();  
+    System.out.println("Title: " + article.title);  
+    System.out.println("Body: " + article.body);  
+  }  
 }  
 ```  
 [解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex5.md)
@@ -275,25 +275,25 @@ int[] ary = {82, 96, 77};
 
 ```java  
 public class User {  
-	String id;  
-	String firstName;  
-	String lastName;  
-	int age;  
+  String id;  
+  String firstName;  
+  String lastName;  
+  int age;  
 
-	???  
+  ???  
 
-	public String getFullName() {  
-		return this.lastName + " " + this.firstName;  
-	}  
+  public String getFullName() {  
+    return this.lastName + " " + this.firstName;  
+  }  
 }  
 ```  
 
 ```java  
 public class Article {  
-	String title;  
-	String body;  
+  String title;  
+  String body;  
 
-	???  
+  ???  
 }  
 ```  
 
@@ -320,20 +320,20 @@ public class Article {
 ```java  
 public class Regular ??? {  
 
-	String deptName;  
+  String deptName;  
 
-	// コンストラクタ  
-	???  
+  // コンストラクタ  
+  ???  
 }  
 ```  
 
 ```java  
 public class Contract  ??? {  
 
-	int contractTerm;  
+  int contractTerm;  
 
-	// コンストラクタ  
-	???  
+  // コンストラクタ  
+  ???  
 }  
 ```  
 
@@ -342,28 +342,28 @@ public class Contract  ??? {
 
 ```java  
 class Main {  
-	public static void main(String[] args) {  
+  public static void main(String[] args) {  
 
-		// ログインユーザー情報  
-		User user = ???  
+    // ログインユーザー情報  
+    User user = ???  
 
-		// 同僚ユーザー情報  
-		User colleague = ???  
+    // 同僚ユーザー情報  
+    User colleague = ???  
 
-		// 記事情報  
-		Article article = new Article("Hello", "World");  
+    // 記事情報  
+    Article article = new Article("Hello", "World");  
 
-		// showメソッド呼び出し  
-		show(user, colleague, article);  
-	}  
+    // showメソッド呼び出し  
+    show(user, colleague, article);  
+  }  
 
-	private static void show(User user, User colleague, Article article) {  
-		System.out.println("Hello, " + user.getFullName());  
-		System.out.println("Your colleague is " + colleague.getFullName() + " Age:" + colleague.age);  
-		System.out.println();  
-		System.out.println("Title: " + article.title);  
-		System.out.println("Body: " + article.body);  
-	}  
+  private static void show(User user, User colleague, Article article) {  
+    System.out.println("Hello, " + user.getFullName());  
+    System.out.println("Your colleague is " + colleague.getFullName() + " Age:" + colleague.age);  
+    System.out.println();  
+    System.out.println("Title: " + article.title);  
+    System.out.println("Body: " + article.body);  
+  }  
 }  
 ```  
 クラスを継承することで、メソッドやフィールドを引き継ぐことができます。
@@ -445,21 +445,21 @@ Mainクラスにshowメソッドを次々に定義していては、Mainクラ�
 ```java
 public class HomeViewer {
 
-	// 画面表示に必要な情報はフィールドに定義する
-	???
-	???
-	???
+  // 画面表示に必要な情報はフィールドに定義する
+  ???
+  ???
+  ???
 
-	// コンストラクタを定義
-	???
+  // コンストラクタを定義
+  ???
 
-	public void show() {
-		System.out.println("Hello, " + this.user.getFullName());
-		System.out.println("Your colleague is " + this.colleague.getFullName() + " Age:" + this.colleague.age);
-		System.out.println();
-		System.out.println("Title: " + this.article.title);
-		System.out.println("Body: " + this.article.body);
-	}
+  public void show() {
+    System.out.println("Hello, " + this.user.getFullName());
+    System.out.println("Your colleague is " + this.colleague.getFullName() + " Age:" + this.colleague.age);
+    System.out.println();
+    System.out.println("Title: " + this.article.title);
+    System.out.println("Body: " + this.article.body);
+  }
 }
 ```
 > 画面の情報を一つにまとめるクラスなので、画面に必要な情報は全てフィールドで持つべきです。  
@@ -468,23 +468,23 @@ public class HomeViewer {
 
 ```java
 class Main {
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 
-		// ログインユーザー情報
-		User user = new Regular("0001", "Taro", "Hoge", 20, "Engineering");
+    // ログインユーザー情報
+    User user = new Regular("0001", "Taro", "Hoge", 20, "Engineering");
 
-		// 同僚ユーザー情報
-		User colleague = new PartTimer("0002", "Jiro", "Fuga", 22);
+    // 同僚ユーザー情報
+    User colleague = new PartTimer("0002", "Jiro", "Fuga", 22);
 
-		// 記事情報
-		Article article = new Article("Hello", "World");
+    // 記事情報
+    Article article = new Article("Hello", "World");
 
-		// 画面表示インスタンス生成
-		HomeViewer viewer = ???;
+    // 画面表示インスタンス生成
+    HomeViewer viewer = ???;
 
-		// showメソッド呼び出し
-		???
-	}
+    // showメソッド呼び出し
+    ???
+  }
 }
 ```
 
@@ -508,7 +508,7 @@ Home画面はshowメソッドで画面を出力しました。
 
 ```java
 public ??? Viewer {
-	???
+  ???
 }
 ```
 
@@ -521,11 +521,11 @@ public ??? Viewer {
 
 ```java
 public class LoginViewer  ??? {
-	??? {
-		System.out.println("Login");
-		System.out.println("id : ");
-		System.out.println("pw : ");
-	}
+  ??? {
+    System.out.println("Login");
+    System.out.println("id : ");
+    System.out.println("pw : ");
+  }
 }
 ```
 
@@ -533,27 +533,27 @@ public class LoginViewer  ??? {
 
 ```java
 class Main {
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 
-		// ログインユーザー情報
-		User user = new Regular("0001", "Taro", "Hoge", 20, "Engineering");
+    // ログインユーザー情報
+    User user = new Regular("0001", "Taro", "Hoge", 20, "Engineering");
 
-		// 画面表示インスタンス生成
-		??? viewer = getViewer(user);
+    // 画面表示インスタンス生成
+    ??? viewer = getViewer(user);
 
-		// showメソッド呼び出し
-		viewer.show();
-	}
+    // showメソッド呼び出し
+    viewer.show();
+  }
 
-	private static ??? getViewer(User user) {
-		if(user == null) {
-			return ???
-		} else {
-			User colleague = new PartTimer("0002", "Jiro", "Fuga", 22);
-			Article article = new Article("Hello", "World");
-			return ???
-		}
-	}
+  private static ??? getViewer(User user) {
+    if(user == null) {
+      return ???
+    } else {
+      User colleague = new PartTimer("0002", "Jiro", "Fuga", 22);
+      Article article = new Article("Hello", "World");
+      return ???
+    }
+  }
 }
 ```
 > user変数にnullを代入した場合、ログイン画面が表示されることを確認してください
@@ -570,17 +570,17 @@ getViewerメソッドはViewerのインスタンスを生成するための処�
 
 ```java
 public interface Viewer {
-	public void show();
+  public void show();
 
-	public ??? Viewer getViewer(User user) {
-		if(user == null) {
-			return new LoginViewer();
-		} else {
-			User colleague = new PartTimer("0002", "Jiro", "Fuga", 22);
-			Article article = new Article("Hello", "World");
-			return new HomeViewer(user, colleague, article);
-		}
-	}
+  public ??? Viewer getViewer(User user) {
+    if(user == null) {
+      return new LoginViewer();
+    } else {
+      User colleague = new PartTimer("0002", "Jiro", "Fuga", 22);
+      Article article = new Article("Hello", "World");
+      return new HomeViewer(user, colleague, article);
+    }
+  }
 }
 ```
 > インターフェースはstaticメソッドであれば、処理を実装することができます。
@@ -589,17 +589,17 @@ public interface Viewer {
 
 ```java
 class Main {
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 
-		// ログインユーザー情報
-		User user = new Regular("0001", "Taro", "Hoge", 20, "Engineering");
+    // ログインユーザー情報
+    User user = new Regular("0001", "Taro", "Hoge", 20, "Engineering");
 
-		// 画面表示インスタンス生成
-		Viewer viewer = ???
+    // 画面表示インスタンス生成
+    Viewer viewer = ???
 
-		// showメソッド呼び出し
-		viewer.show();
-	}
+    // showメソッド呼び出し
+    viewer.show();
+  }
 }
 ```
 
