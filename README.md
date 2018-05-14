@@ -559,3 +559,48 @@ class Main {
 > user変数にnullを代入した場合、ログイン画面が表示されることを確認してください
 
 [解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex12.md)
+
+## 課題13 static
+getViewerメソッドはViewerに関する処理なので、Viewerインターフェースに定義しましょう。
+getViewerメソッドはViewerのインスタンスを生成するための処理です。
+つまり、インスタンスを作る前に呼び出せる必要があります。
+そういう時に用いるのがstaticです。
+
+#### [問] getViewerメソッドをViewerインターフェースのstaticメソッドとして定義してください
+
+```java
+public interface Viewer {
+	public void show();
+
+	public ??? Viewer getViewer(User user) {
+		if(user == null) {
+			return new LoginViewer();
+		} else {
+			User colleague = new PartTimer("0002", "Jiro", "Fuga", 22);
+			Article article = new Article("Hello", "World");
+			return new HomeViewer(user, colleague, article);
+		}
+	}
+}
+```
+> インターフェースはstaticメソッドであれば、処理を実装することができます。
+
+#### [問] mainメソッドで、Viewer.getViewerメソッドを使って、Viewerインスタンスを生成してください
+
+```java
+class Main {
+	public static void main(String[] args) {
+
+		// ログインユーザー情報
+		User user = new Regular("0001", "Taro", "Hoge", 20, "Engineering");
+
+		// 画面表示インスタンス生成
+		Viewer viewer = ???
+
+		// showメソッド呼び出し
+		viewer.show();
+	}
+}
+```
+
+[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex13.md)
