@@ -25,7 +25,7 @@ class Main {
 
   private static void show(String userFirstName, String userLastName, String colleagueUserFirstName, String colleagueUserLastName, int colleagueUserAge, String articleTitle, String articleBody) {  
     System.out.println("Hello, " + userLastName + " " + userFirstName);  
-    System.out.println("Your colleague is " + colleagueUserLastName + " " + colleagueUserFirstName + "Age:" + colleagueUserAge);  
+    System.out.println("Your colleague is " + colleagueUserLastName + " " + colleagueUserFirstName + " Age:" + colleagueUserAge);  
     System.out.println();  
     System.out.println("Title: " + articleTitle);  
     System.out.println("Body: " + articleBody);  
